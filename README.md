@@ -55,20 +55,20 @@ You can also skip the prompt if you want to run Redmine2Trello automatically in 
 
 ## FAQ
 
-Q: Will Redmine2Trello import my issue again if I move the trello card to another list ?
+Q: Will Redmine2Trello import my issue again if I move the trello card to another list ?  
 A: No. Redmine2Trello check for existing issue in all trello lists.
 
-Q: Can I run Redmine2Trello skipping prompt ?
+Q: Can I run Redmine2Trello skipping prompt ?  
 A: Yes, please see #Running without prompt
 
-Q: How to know what issue correspond to trello card ?
+Q: How to know what issue correspond to trello card ?  
 A: Redmine2Trello add a comment on each trello card with the redmine issue link
 
-Q: Is Redmine2Trello updating trello cards when redmine issue is updated ?
+Q: Is Redmine2Trello updating trello cards when redmine issue is updated ?  
 A: Not for now
 
-Q: Can I import trello cards in redmine ?
+Q: Can I import trello cards in redmine ?  
 A: No. Redmine2Trello is not Trello2Redmine ;)
 
-Q: Are you a super-hero ?
+Q: Are you a super-hero ?  
 A: With great power comes great responsibility!
