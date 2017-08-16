@@ -105,7 +105,7 @@ var processNextIssue = function() {
       		processNextIssue();
 		}
 	}else if (done < total) {
-    	fetchIssues(done);
+    	fetchIssuesAndProcess(done);
     }else {
     	showEndingMessage();
     }
