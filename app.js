@@ -1,4 +1,3 @@
-var argv = require('yargs').argv;
 var Redmine = require('node-redmine');
 var Trello = require("trello");
 var prompt = require('prompt');
@@ -215,6 +214,10 @@ var schema = {
 };
 
 prompt.get(schema, function (err, result) {
+	if (err) {
+		console.log(err.message);
+		process.exit();
+	}
 	REDMINE_HOST = result.redmineHost;
 	REDMINE_API_KEY = result.redmineApiKey;
 	REDMINE_PROJECT_ID = result.redmineProjectID;

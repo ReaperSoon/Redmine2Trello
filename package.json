@@ -1,11 +1,17 @@
 {
-  "name": "sync-redmine-trello",
+  "name": "Redmine2Trello",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert your redmine issues in trello card",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Steve Cohen",
+  "license": "MIT",
+  "dependencies": {
+    "node-redmine": "^0.2.0",
+    "optimist": "^0.6.1",
+    "prompt": "^1.0.0",
+    "trello": "^0.8.0"
+  }
 }
