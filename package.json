@@ -1,7 +1,7 @@
 {
-  "name": "Redmine2Trello",
-  "version": "1.0.0",
-  "description": "Convert your redmine issues in trello card",
+  "name": "RedmineTrelloSync",
+  "version": "0.5.0",
+  "description": "Convert your redmine issues in trello card and vice versa",
   "main": "app.js",
   "scripts": {
       "start": "node app.js"

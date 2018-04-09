@@ -190,6 +190,10 @@ var schema = {
 	  	description: 'Enter your trello board ID (https://trello.com/b/<boardID>/<boardName>)',
 	  	required: true
 	  },
+	  /*trelloListByRedmineColumn: {
+	  	name: 'trelloList',
+	  	description: 'What redmine column do you want to use to create trello lists ?\n'
+	  },*/
 	  trelloListName: {
 	  	name: 'trelloListName',
 	  	description: 'Enter the trello list name where you want to add new cards (if not exists, it will be created)',
